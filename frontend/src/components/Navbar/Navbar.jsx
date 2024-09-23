@@ -16,7 +16,7 @@ const Navbar = ({ setShowLogin }) => {
     localStorage.removeItem("token");
     setToken("");
     // Log out from Auth0 with logoutParams
-    logout({ logoutParams: { returnTo: "http://localhost:3000" } });
+    logout({ logoutParams: { returnTo: "Ayur-Sphere.netlify.com" } });
   };
 
   return (
